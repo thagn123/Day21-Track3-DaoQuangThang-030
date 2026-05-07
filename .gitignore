@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+Colab Notebooks/
+OUTPUT_DIR.zip
+
+lab21_lora_t4/*/checkpoint-*

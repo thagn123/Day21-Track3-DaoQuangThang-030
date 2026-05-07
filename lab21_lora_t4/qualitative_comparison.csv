@@ -1,0 +1,29 @@
+prompt,base,finetuned
+Giải thích khái niệm machine learning cho người mới bắt đầu.,"Machine learning là một phân khúc của trí tuệ nhân tạo, nó tập trung vào việc thiết lập các mô hình máy móc để học tập từ dữ liệu và từ đó có thể dự đoán hoặc hành động. Nhìn vào khía cạnh đơn giản, nó có nghĩa là máy móc học tập từ dữ liệu. Mô hình học được từ dữ liệu này có thể thực hiện các nhiệm",Machine learning là một bộ môn công nghệ máy tính dựa trên việc học tập và cải thiện các dự đoán dựa trên dữ liệu mà không có sự hướng dẫn trực tiếp từ người dùng. Nó là một phần của AI (trí tuệ nhân tạo) và sử dụng thuật toán và các mô hình học máy để học từ dữ liệu và từ đó đưa ra dự đoán hoặc quy
+Viết đoạn code Python tính số Fibonacci thứ n.,"Để tính số Fibonacci thứ n, bạn có thể sử dụng hàm đệ quy hoặc vòng lặp. Đây là một đoạn mã Python cho phép bạn tính số Fibonacci thứ n:
+
+```python
+def fibonacci(n):
+    if n <= 0:
+        return ""N phải là một số dương""
+    elif n == 1:
+        return 0
+    elif n == 2:
+        return 1
+    else:
+ ","Để tính số Fibonacci thứ n, bạn có thể viết một đoạn code Python như sau:
+
+```python
+def fibonacci(n):
+    if n < 0:
+        raise ValueError(""Input phải là một số nguyên dương."")
+    elif n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        a, b = 0, 1
+        for _ in range"
+Liệt kê 5 nguyên tắc thiết kế UI/UX.,"1. Thân thiện với người dùng: Mục đích của thiết kế UI/UX là cung cấp trải nghiệm người dùng thân thiện, dễ sử dụng và thân thiện. Điều này có thể được thể hiện thông qua việc sắp xếp bố cục, màu sắc, font chữ, hình ảnh và các yếu tố khác để đảm bảo người dùng có thể dễ dàng sử dụng sản phẩm. 2. Tru","1. Chuyển đổi: Phải tạo một trải nghiệm tốt nhất cho khách hàng bằng cách giảm thời gian, cải thiện chất lượng và giảm lỗi. 2. Chất lượng: UI/UX phải cung cấp trải nghiệm tốt nhất cho người dùng bằng cách tạo ra các sản phẩm và dịch vụ có chất lượng cao. 3. Thỏa thuận: Thiết kế UI/UX phải được thiết"
+Tóm tắt sự khác biệt giữa LoRA và QLoRA.,LoRA và QLoRA là hai phương pháp cải tiến được tạo ra để làm cho hệ thống Transformer hiệu quả hơn và có thể được mở rộng để xử lý nhiều đầu vào và đầu ra. LoRA (Low-Rank Adaptation) là phương pháp cải tiến cho hệ thống Transformer mà nó thay thế các mảng trọng lượng lớn bằng các mảng nhỏ hơn với kí,"LoRA và QLoRA là hai cách tiếp cận khác nhau để tăng độ phức tạp của mô hình NLP (Nền tảng học máy tự nhiên) bằng cách áp dụng kỹ thuật kỹ thuật số hóa. LoRA là viết tắt của Layer-wise Adaptive Regularization Optimization, là một kỹ thuật để điều chỉnh độ phức tạp của một mô hình NLP bằng cách áp dụ"
+"Phân biệt prompt engineering, RAG, và fine-tuning.","Prompt engineering, RAG (Retrieval Augmented Generation), và fine-tuning là ba phương pháp khác nhau để cải thiện tính chính xác và hiệu quả của mô hình ngôn ngữ. Prompt engineering là một kỹ thuật được sử dụng để cải thiện khả năng hiểu câu hỏi của mô hình bằng cách thêm các câu hỏi gợi ý vào promp","Prompt engineering, RAG (Retrieval Augmented Generation), và fine-tuning là ba phương pháp khác nhau để tạo ra nội dung. Prompt engineering là một kỹ thuật để cải thiện hiệu suất của các hệ thống tự động trả lời bằng cách tạo ra một prompt (bài chat) phù hợp hơn cho hệ thống. RAG là một kỹ thuật để "
